@@ -7,13 +7,13 @@
 }
 body{
     font-family: 'DM Sans', sans-serif;
+   
 }
 /* header style*/
 .header__top--image{
     background-image: url(/images/topbar.png);
     height: 10px;
     width: auto;
-   
 }
 nav{
     background-color: #ffffff;
@@ -30,8 +30,7 @@ nav{
 /* first-section */
 .first-section{
     background-color: #F5F8FF;
-    padding: 145px 0;
-    
+    padding: 145px 0;  
 }
 .home__article p{
     letter-spacing: 1px;
@@ -57,6 +56,11 @@ nav{
 }
 
 /* Pick your plan or price  section */
+.price__card--monthly,
+.price__card--yearly{
+   text-align: center;
+    
+}
 
 .price__button{
   background-color: #EF8094;
@@ -65,6 +69,91 @@ nav{
   font-weight: 700;
   padding: 10px 30px;
   letter-spacing: 1px;
+}
+/* How it Works */
+
+.works__image{
+    position: relative;
+    
+}
+.works__woman{
+    position: absolute;
+    z-index: 1;
+    top: 50px;
+    left: 50px;
+}
+.works__number{
+    position: absolute;
+    z-index: 2;
+    top: 100px;
+    left: 85px;
+}
+.works__art1{
+    position: absolute;   
+}
+
+/* Review your custom box */
+.review{
+    height: 760px;
+    overflow: auto;
+    overflow-x: hidden;
+   
+}
+.review__images{
+    position: relative;
+
+}
+.review__image1{
+    position: absolute;
+    z-index: 1;
+    
+}
+.review__image2{
+    position: absolute;
+    top: 250px;
+    left: 300px;
+}
+.review__image3{
+    position: absolute;
+    top: 160px;
+    left: 600px;
+}
+.review__image4{
+    position: absolute;
+    top: 450px;
+    left: 350px;
+    z-index: 2;
+}
+.review__text{
+    position: relative;
+    top: 560px;
+    left: 150px;
+}
+
+/* try */
+.try{
+    width: 100%;
+    height: 500px;
+   
+}
+.try__image{
+    position: relative;
+}
+.try__woman{
+    position: absolute;
+    z-index: 1;
+}
+.try__number{
+    position: absolute;
+    top: 70px;
+    right: 270px;
+    z-index: 2;
+}
+.try__art1{
+    position: absolute;
+    top: 250px;
+    left: 220px;
+    
 }
 /* Responsive Web Design - Media Queries */
 /* ------------------------------------- */

@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>UpBox</title>
     <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon">
+    <script src="https://kit.fontawesome.com/d08d5e8eb8.js" crossorigin="anonymous"></script>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
     <link rel="stylesheet" href="css/style.css">
 </head>
@@ -76,17 +77,17 @@
         <section class="mt-5">
             <div class="container">
                 <div class="row">
-                    <div class="col-12">
-                        <h1 class="text-center">Pick your plan</h1>
-                        <div class="d-flex justify-content-center">
-                            <img  style="height: 10px; width: 250px;" src="images/underline-2.png" alt="images/underline-2">
+                    <div class="col-12 d-flex justify-content-center">
+                        <div>
+                            <h1 class="text-center">Pick your plan</h1>
+                            <img src="images/underline-2.png" alt="images/underline-2">
                         </div>
                     </div>
                 </div>
-                <div class="row mt-5">
-                    <div class="col-12 col-sm-6">
-                        <div class="card">
-                            <div class="card-body d-flex justify-content-center">
+                <div class="row">
+                    <div class="col-12 col-sm-6 gy-5">
+                        <div class="card border border-5 price__card--monthly">
+                            <div class="card-body d-flex justify-content-center align-items-center">
                                 <div>
                                     <h1 class="card-title">Monthly</h1>
                                     <h1 class="card-text">$18/mo</h1>
@@ -95,11 +96,11 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-12 col-sm-6">
-                        <div class="card">
-                            <div class="card-body d-flex justify-content-center">
+                    <div class="col-12 col-sm-6 gy-5">
+                        <div class="card border border-5 price__card--yearly">
+                            <div class="card-body d-flex justify-content-center align-items-center">
                                 <div>
-                                    <h1 class="card-title">Monthly</h1>
+                                    <h1 class="card-title">Yearly</h1>
                                     <h1 class="card-text">$15/mo</h1>
                                     <a class="btn price__button rounded-pill" href="http://" target="_blank" rel="noopener noreferrer">FIND YOUR BOX</a>
                                 </div>
@@ -107,12 +108,142 @@
                         </div>
                     </div>
                 </div>
+                <div  class="text-center mt-4">
+                    <small>Your plan auto-renews at the end of 30 days from the 1st day you signed-up.</small>
+                </div>
             </div>
         </section>
+        <!-- How it Works -->
+        <section class="mt-5">
+            <div class="container works" style="height: 600px;">
+                <div class="row">
+                    <div class="col-12 d-flex justify-content-center">
+                        <div>
+                            <h1>How it Works?</h1>
+                            <img src="images/works/underline-1.png" alt="">   
+                        </div>
+                    </div>
+                </div>
+              
+                <div class="row justify-content-center">    
+                    <div class="col-12 col-lg-4 works__image">
+                        <img class="img-fluid works__woman" src="images/works/woman-1.png" alt="images/woman">
+                        <img class="works__number" src="images/works/1.png" alt="images/number">
+                        <img class="works__art1" src="images/works/art1.png" alt="">
+                    </div>   
+                    <div class="mt-5 col-12 col-lg-4">    
+                        <h1 class="fs-2">Setup your profile & preferences</h1>
+                        <p>Once you create an account, you can start to tell us your likes and dislikes so we can tailor the experience just for you.</p>                          
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Review your custom box -->   
+        <section class="review">
+            <div class="container ">
+                <div class="justify-content-center">                
+                    <div class="review__images">
+                        <img class="review__image1 img-fluid" src="images/review/box2-1.png" alt="">
+                        <img class="review__image2 img-fluid" src="images/review/art2.png" alt="">
+                        <img class="review__image3 img-fluid" src="images/review/Vector.png" alt="">
+                        <img class="review__image4 img-fluid" src="images/review/2.png" alt="">
+                    </div> 
+                </div>
+                <div class="row justify-content-center review__text">
+                    <div class="col-lg-5">
+                        <h1>Review your <br> custom box</h1>
+                        <p>Once we get to know you, we will show you the box we’ve crafted. This is your chance to approve it before we ship it to your house.</p>                
+                    </div>
+               </div>
+            </div>
+        </section>
+        <!-- try -->
+        <section>
+            <div class="container try">
+                <div class="row justify-content-center">    
+                    <div class="col-12 col-lg-4 try__image">
+                        <img class="img-fluid try__woman" src="images/try/woman1.png" alt="images/woman">
+                        <img class="try__number" src="images/try/3.png" alt="images/number">
+                        <img class="try__art1" src="images/try/art3.png" alt="">
+                    </div>   
+                    <div class="mt-5 col-12 col-lg-4">    
+                        <h1 class="fs-2">Try it on at home</h1>
+                        <p>Your box will arrive within 3-5 days (usually sooner) and you get the joy to unbox your Upbox. Try it all on and send back whatever you’re not in love with.</p>                          
+                    </div>
+                </div>
+            </div>
+            <div class="text-center">
+                <a class="home__button px-4 btn btn-outline-secondary rounded-pill"  href="http://" target="_blank" rel="noopener noreferrer">TRY IT FOR YOURSELF ></a>
+            </div>
+        </section>
+        <!-- Social Posts -->
+        <section class="mt-5">
+            <div class="container">
+                <h1 class="text-center">Social Posts</h1>
+                <div class="row g-4">
+                    <div class="col">
+                        <div class="card">
+                            <img src="images/social/img1.png" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <p class="card-text">How to rock the lip look that turns heads</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="card">
+                            <img src="images/social/img2.png" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <p class="card-text">Find the perfect shade for the season</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="card">
+                            <img src="images/social/img3.png" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <p class="card-text">The 5 eye shadow secrets you never knew</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="card">
+                            <img src="images/social/img4.png" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <p class="card-text">The pro-tips for at home hair dying</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="text-center my-5">
+                <a class="home__button px-4 btn btn-outline-secondary rounded-pill"  href="http://" target="_blank" rel="noopener noreferrer">FOLLOW US ON INSTAGRAM</a>
+            </div>
+        </section>
+        
     </main>
     <footer>
-        
+        <div class="container">
+            <div class="row ">
+                <div class="col-lg-4">
+                    <a class="text-decoration-none text-dark d-flex align-items-center" href="#">
+                        <img src="images/Logo.png" alt="" width="56" height="56" class="d-inline-block align-text-top me-3">
+                        <span class="text-uppercase fs-2 fw-bold nav__logo--text">upbox</span>
+                    </a>
+                </div>
+                <div class="col-lg-4 align-items-center ms-auto">
+                    <i class="me-4 fab fa-facebook"></i>
+                    <i class="me-4 fab fa-twitter"></i>
+                    <i class="me-4 far fa-bell"></i>
+                    <i class="me-4 fab fa-instagram"></i>
+                </div>
+            </div>
+        </div>
     </footer>
+
+
+
+  
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
 </body>
 </html>
